@@ -21,12 +21,6 @@ code {
     monospace;
 }
 
-.container {
-	padding: 0 10px;
-	max-width: 1200px;
-	margin: 0 auto;
-}
-
 .wrapper {
 	height: 100vh;
 	display: flex;
@@ -35,11 +29,12 @@ code {
 }
 
 .header {
-	padding: 20px 0;
+	padding: 20px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .header nav {
+	padding: 0 10px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -76,7 +71,7 @@ code {
 	max-width: 500px;
 	margin: 0px auto 0;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	padding: 20px;
+	padding: 10px;
 	border-radius: 3px;
 }
 
@@ -89,7 +84,7 @@ code {
 }
 
 .btn {
-	margin-top: 10px;
+	margin-top: 5px;
 	font-size: 18px;
 	padding: 10px 15px;
 	background-color: #4285F4;
@@ -114,8 +109,8 @@ code {
 }
 
 .currency-wrapper {
-	min-width: 500px;
-	margin: 50px 0;
+	max-width: 500px;
+	margin: 50px auto;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	padding: 20px;
 }
@@ -185,7 +180,7 @@ code {
 
 .input-item {
 	margin-right: 10px;
-	flex: 0 0 250px;
+	flex: 0 1 60%;
 }
 
 .input-item input {
@@ -201,6 +196,7 @@ code {
 	height: 50px;
 	display: flex;
 	align-items: center;
+	flex: 0 0 auto;
 }
 
 .select-item select {
